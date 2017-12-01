@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Calculation;
+using calculation;
 
 namespace ConsoleAppCalculator
 {
@@ -33,19 +33,19 @@ namespace ConsoleAppCalculator
             {
                 case 1:
                     //fRezultat = fPrviBroj + fDrugiBroj;
-                      fRezultat = Calculator.Add(fPrviBroj, fDrugiBroj);
+                    fRezultat = Calculator.Add(fPrviBroj, fDrugiBroj);
                     break;
                 case 2:
-                   // fRezultat = fPrviBroj * fDrugiBroj;
-                      fRezultat = Calculator.Multiply(fPrviBroj, fDrugiBroj);
+                    // fRezultat = fPrviBroj * fDrugiBroj;
+                    fRezultat = Calculator.Multiply(fPrviBroj, fDrugiBroj);
                     break;
                 case 3:
                     //fRezultat = fPrviBroj - fDrugiBroj;
-                      fRezultat = Calculator.Substract(fPrviBroj, fDrugiBroj);
+                    fRezultat = Calculator.Substract(fPrviBroj, fDrugiBroj);
                     break;
                 case 4:
                     //fRezultat = fPrviBroj / fDrugiBroj;
-                      fRezultat = Calculator.Divide(fPrviBroj, fDrugiBroj);
+                    fRezultat = Calculator.Divide(fPrviBroj, fDrugiBroj);
                     break;
                 default:
                     Console.WriteLine("Niste odabrali niti jednu od ponudenih opcija.");
